@@ -1,5 +1,10 @@
-<manifest package="moe.laysionqet.timepickercompat">
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="moe.laysionqet.timepickercompat">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
     <application/>
 
 </manifest>
+
