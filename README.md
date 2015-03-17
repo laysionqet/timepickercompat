@@ -5,7 +5,7 @@ Material style of timepicker for pre-Lollipop, scratched from android app Deskto
 - property configing
   - multi-color(not dark mode)
   ```java
-            TimePickerDialog dialog new TimePickerDialog.Builder()
+            TimePickerDialog dialog = new TimePickerDialog.Builder()
                   .setPrimaryColor(primaryColor)
                   .setPrimaryColorDark(primaryColorDark)
                   .setSelectedColor(selectedColor)
@@ -19,7 +19,7 @@ Material style of timepicker for pre-Lollipop, scratched from android app Deskto
                   
   - darkmode
   ```java
-              TimePickerDialog dialog new TimePickerDialog.Builder()
+              TimePickerDialog dialog = new TimePickerDialog.Builder()
                   .setThemeDark(true)
                   .setOnTimeSetListener(timeSetListener)
                   .setHourOfDay(calendar.get(Calendar.HOUR_OF_DAY))
